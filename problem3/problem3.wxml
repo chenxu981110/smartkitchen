@@ -1,0 +1,10 @@
+<view class="problem3-container">
+<view class="text1">
+<text class="text2">收不到验证码怎么办？</text>
+<text class="text3">请先核实你正在使用的手机号码与预留号码是否一致，如果不一致，可以直接打开慧厨会员俱乐部小程序，点击“修改资料”即可在线更新号码。</text>
+</view>
+<view class="text4">
+<view class="text5">问题仍未解决</view>
+<view class="text6">联系在线客服（09:00-21:00）</view>
+</view>
+</view>

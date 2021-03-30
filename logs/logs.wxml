@@ -1,0 +1,206 @@
+<view class="logs-container">
+
+
+<!--左侧滑动抽屉-->
+ <view class="page-bottom">
+<view class="text8">
+    <!--模块分-->
+  <view class="text11">
+      <view >
+            <image class="image7" src="../images/17.jpeg"></image>
+       </view>
+       <view class="btn6" >
+            <text class="text9">陈旭</text>
+            <text class="text10">慧厨会员俱乐部成员</text>
+       </view>
+       
+  </view>
+    
+        
+
+</view>
+
+
+
+
+
+
+
+
+    <!--模块分-->
+        <view class="page-content">
+            <view  class="wc" bindtap="goq">
+                <view class="text15">
+                <i-icon type="send" size="28" color="#FFFFFF" />
+                <text class="text14">温湿度</text>
+                </view>   
+            </view>
+            <view  class="wc" bindtap="gow">
+                <view class="text15">
+                 <i-icon type="other" size="28" color="#FFFFFF" />
+                <text class="text14">可燃气体浓度</text> 
+                  </view>
+            </view>
+            <view  class="wc" bindtap="goe">
+                <view class="text15">
+                 <i-icon type="playon" size="28" color="#FFFFFF" />
+                <text class="text14">烟雾浓度</text>
+                  </view>
+            </view>
+         <view class="text16">
+          <text>Logout</text>
+         </view>
+        </view>
+    </view>
+<view class="page-top {{open ? 'c-state2' : ''}}">
+       
+
+
+<!---->
+
+
+
+
+
+
+
+<!--总-->
+<view class="a1">
+<!--模块总-->
+<view class="c">
+<!--模块分-->
+<view class="btn4">
+ <image bindtap="tap_ch" src="../images/btn.png"></image>
+<image class="image2" src="../images/17.jpeg"></image>
+<text class="text4">陈旭</text>
+</view>
+<!--模块分-->
+<view class="btn3">
+<image class="image4" src="../images/20.png"></image>
+<text class="text0">修改资料</text>
+</view>
+<!---->
+</view>
+<!--模块总-->
+<view class="b">
+<!--模块分-->
+<view class="btn2">
+<image class="y" src="../images/1111.png"></image>
+<text class="text3">会员福利</text>
+</view>
+<!--模块分-->
+<view class="btn2">
+<image class="y" src="../images/4444.png"></image>
+<text class="text5">优惠券</text>
+</view>
+<!--模块分-->
+<view class="btn2">
+<image class="y" src="../images/3333.png"></image>
+<text class="text3">抽奖活动</text>
+</view>
+<!--模块分-->
+<view class="btn9">
+<image class="y" src="../images/2222.png"></image>
+<text class="text3">微信支付</text>
+</view>
+<!---->
+</view>
+<!--LOGO图-->
+<image  class="image1" src="../images/bbb.png"></image>
+
+
+
+<!--模块总-->
+<view class="a">
+<!--模块分-->
+<view class="btn1">
+<view class="x">
+<text class="text1">线下活动</text>
+<text class="text2">即刻体验</text>
+</view>
+<image class="image5" src="../images/32.png"></image>
+</view>
+<!--模块分-->
+<view class="btn1">
+<view class="x">
+<text class="text1">设计预约</text>
+<text class="text2">立即预约</text>
+</view>
+<image class="image5" src="../images/30.png"></image>
+</view>
+<!--模块分-->
+<view class="btn1">
+<view class="x">
+<text class="text1">家居指南</text>
+<text class="text2">欢迎观看</text>
+</view>
+<image class="image5" src="../images/29.png"></image>
+</view>
+<!---->
+</view>
+</view>
+
+<!--轮播图-->
+<swiper class="swiper-box" indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="2000" circular="true" >
+<swiper-item>
+<image class="image6" src="../images/lb4.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="image6" src="../images/lb6.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="image6" src="../images/lb3.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="image6" src="../images/lb2.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image class="image6" src="../images/lb1.jpg"></image>
+</swiper-item>
+</swiper> 
+<!---->
+
+
+ 
+<!-- 地图部分 -->
+<view class="map_container">
+  <map class='map' longitude='{{longitude}}' latitude='{{latitude}}' scale='{{scale}}' markers='{{markers}}' controls="{{controls}}" bindcontroltap="bindcontroltap" polyline='{{polyline}}' circles="{{circles}}" bindmarkertap='bindmarkertap' bindcontroltap='bindcontroltap'
+    show-location></map>
+</view>
+ 
+ 
+<!-- 导航部分 --> 
+<view class='list-guide'>
+<!-- 这里的坐标本应该是从服务器获取数据的,这时丈先写死在页面上了 -->
+  <view bindtap="onGuideTap" class="text6" data-latitude='39.92392' data-longitude='116.411885' data-bankName='最高人民检察院'>
+   <i-icon type="coordinates_fill" size="23" color="#FFFFFF" class="list-guide-imgae1"/>
+    <text class='list-guide-text1'>导航</text>
+  </view>
+<!--
+  <view class="text7" bindtap='onbankTap' data-bankId="{{item.BANK_ID}}">
+    <i-icon type="more" size="28" color="#FFFFFF" class="list-guide-imgae2"/>
+    <text class='list-guide-text2'>详情</text>
+  </view>
+ -->
+</view>
+
+
+
+
+
+<!--点我1-->
+<view class='pop-box {{unfold==0?"on":""}} {{unfold==1?"off":""}}'>
+  <view class="bt" bindtap='unfold'>
+  <image  class="image14"src="../images/faxiantianchong.png"></image>
+  </view>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</view>
+<!--点我1-->
+
+
+
+</view>
+
+</view>

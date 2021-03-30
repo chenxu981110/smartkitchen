@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#b3d4db",
+  "navigationBarTitleText": "慧厨会员中心",
+  "navigationBarTextStyle": "white",
+    "component": true,
+    "usingComponents": {
+      "i-collapse": "../../dist/collapse/index",
+      "i-collapse-item": "../../dist/collapse-item/index"
+    }
+
+}

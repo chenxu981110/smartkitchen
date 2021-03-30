@@ -1,0 +1,40 @@
+.problem1-container{
+display: flex;
+flex-direction: column;
+}
+.problem1-container .text1{
+  display: flex;
+flex-direction: column;
+}
+.problem1-container .text2{
+ text-decoration: none;
+  font-size: 32rpx;
+  color:black;
+  font-weight: bold;
+}
+.problem1-container .text3{
+ text-decoration: none;
+  font-size: 28rpx;
+  margin-top: 40rpx;
+  font-weight: 3rpx;
+  
+}
+
+.problem1-container .text4{
+position: fixed;
+bottom: 0;
+margin-bottom: 30rpx;
+display: flex;
+flex-direction: row;
+margin-left: 160rpx;
+}
+.problem1-container .text5{
+font-size: 23rpx;
+}
+.problem1-container .text6{
+color:#6495ED;
+font-size: 23rpx; 
+text-decoration-line: underline;
+text-decoration-color: #6495ED;
+margin-left: 20rpx;
+}

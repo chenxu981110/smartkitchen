@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "logs/logs",
+    "login/login",
+   
+    "mine/mine",
+   
+    "index/index",
+    "about/about",
+    "w/w",
+    "q/q",
+    "e/e",
+    "a/a",
+    "b/b",
+    "c/c"
+
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧厨房",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#b3d4db",
+    "selectedColor": "#65777a",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "about/about",
+        "text": "帮助中心",
+        "iconPath": "images/bangzhu.png",
+        "selectedIconPath": "images/zaq.png"
+      },
+      {
+        "pagePath": "logs/logs",
+        "text": "主页",
+        "iconPath": "images/shouye111.png",
+        "selectedIconPath": "images/cde.png"
+      },
+      {
+        "pagePath": "index/index",
+        "text": "我的",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/ed.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

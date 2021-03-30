@@ -1,0 +1,593 @@
+.logs-container{
+  border-radius: 50rpx;
+}
+.logs-container swiper{
+width: 100%;
+height: 280rpx;
+}
+.logs-container swiper image{
+  width: 100%;
+}
+.swiper-box .wx-swiper-dots .wx-swiper-dots-horizontal{
+  margin-bottom: 2rpx;
+}
+
+.swiper-box .wx-swiper-dot{
+  width: 35rpx;
+  display: inline-flex;
+  height: 10rpx;
+  margin-left: 3rpx;
+  justify-content: space-between;
+}
+
+.swiper-box .wx-swiper-dot::before{
+  content: '';
+  flex-grow: 1;
+  background-color: black;
+  border-radius: 8rpx;
+}
+.swiper-box .wx-swiper-dot-active::before{
+  background-color: white;
+}
+
+.logs-container .image1{
+  width: 560rpx;
+  height: 320rpx;
+  margin-top:130rpx;
+  margin-left: 80rpx;
+  border-radius:15px;
+box-shadow:3px 1px 1px gainsboro;
+}
+.logs-container .swiper-box{
+height: 150rpx;
+margin-top:20rpx;
+margin-left: 28rpx;
+width: 700rpx;
+  }
+.logs-container .image6{
+height: 100%;
+width: 100%;
+margin-top: 0rpx;
+margin-left: 0rpx;
+  }
+.logs-container .btn1{
+display: flex;
+flex-direction: row;
+border: 1px solid rgb(238, 236, 236);
+background-color:white;
+border-radius:10rpx;
+width: 200rpx;
+height: 110rpx;
+box-shadow:3px 1px 1px gainsboro;
+}
+.logs-container .text1{
+  text-decoration: none;
+  font-size: 28rpx;
+  color: #65777a;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  
+}
+.logs-container .text0{
+  text-decoration: none;
+  font-size: 28rpx;
+  color:#65777a;
+  margin-left: 60rpx;
+  margin-top: 10rpx;
+  
+}
+.logs-container .text2{
+  text-decoration: none;
+  font-size: 25rpx;
+  color: rgb(150, 150, 150);
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.logs-container .image4{
+width: 50rpx;
+height: 50rpx;
+margin-left: 8rpx;
+margin-top: 2rpx;
+
+}
+.logs-container .a{
+display: flex;
+justify-content: space-around;
+margin-top: 470rpx;
+}
+.logs-container .a1{
+background-color:#b3d4db;
+padding-block-end: 40rpx;
+height: 650rpx;
+border-bottom-left-radius: 400rpx;
+border-bottom-right-radius: 700rpx;
+ box-shadow:7px 5px 5px gainsboro;
+}
+.logs-container .b{
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 80rpx;
+
+}
+.logs-container .btn2{
+display: flex;
+flex-direction: column;
+border: 1px solid #b3d4db;
+background-color:#b3d4db;
+margin-top: 100rpx;
+border-right-style: solid;
+border-right-color: white;
+border-right-width: 3rpx;
+width: 150rpx;
+height: 70rpx;
+
+}
+.logs-container .btn9{
+display: flex;
+flex-direction: column;
+border: 1px solid #b3d4db;
+background-color:#b3d4db;
+margin-top: 100rpx;
+width: 150rpx;
+height: 70rpx;
+
+}
+.logs-container .text3{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  margin-left: 8rpx;
+  margin-top: 53rpx;
+  font-family: "SimSun";
+}
+.logs-container .text5{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  margin-left: 20rpx;
+  margin-top: 53rpx;
+   font-family: "SimSun";
+}
+
+.logs-container .c{
+display: flex;
+flex-direction: row;
+height: 15rpx;
+}
+.logs-container .image2{
+width: 70rpx;
+height: 70rpx;
+border-radius: 50%;
+margin-left: 80rpx;
+margin-top: 10rpx;
+}
+.logs-container .btn4{
+display: flex;
+flex-direction:row;
+}
+.logs-container .btn3{
+display: flex;
+flex-direction: row;
+border: 1px solid white;
+background-color:white;
+margin-top: 12rpx;
+border-radius:10rpx;
+margin-left: 25rpx;
+width: 200rpx;
+height: 58rpx;
+}
+.logs-container .text4{
+ text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin-left: 170rpx;
+  margin-top: 26rpx;
+}
+.logs-container .image5{
+width: 60rpx;
+height: 60rpx;
+margin-left: 120rpx;
+margin-top: 20rpx;
+
+}
+.logs-container .x{
+display: flex;
+flex-direction: column;
+}
+.logs-container .y{
+height: 50rpx;
+width: 50rpx;
+margin-left: 35rpx;
+margin-top:0rpx;
+}
+
+
+
+
+
+
+
+/*点我1*/
+.pop-box {
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  bottom: 10rpx;
+  right: 50rpx;
+}
+ 
+.pop-box>view {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}
+ 
+.pop-box>view:nth-child(1) {
+  background-color: #6495ED;
+}
+ 
+.pop-box>view:nth-child(2) {
+  background-color: #0000FF;
+}
+ 
+.pop-box>view:nth-child(3) {
+  background-color: #0000CD;
+}
+.pop-box>view:nth-child(4) {
+  background-color:#00008B;
+}
+ 
+@keyframes unfold {
+  0% {
+    height: 120rpx;
+  }
+ 
+  80% {
+    height: 420rpx;
+  }
+ 
+  100% {
+    height: 350rpx;
+  }
+}
+ 
+@keyframes shrink {
+  0% {
+    height: 350rpx;
+  }
+ 
+  20% {
+    height: 420rpx;
+  }
+ 
+  100% {
+    height: 350rpx;
+  }
+}
+.on {
+  height: 350rpx;
+  animation: unfold 1.2s 1 ease-out;
+}
+.off {
+  height: 80rpx;
+  animation: shrink 1.2s 1 ease-out;
+}
+.logs-container .bt{
+   text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/map/map.wxss */
+.map_container {
+  height: 400rpx;
+  width: 700rpx;
+  margin-top: 60rpx;
+  margin-left: 28rpx;
+  
+}
+ 
+.map {
+width:100%;
+height: 100%
+}
+ 
+
+.list-guide-imgae1{
+position: absolute;
+top: 10rpx;
+right: 90rpx;
+
+ }
+/*
+.list-guide-imgae2{
+position: absolute;
+top: 20rpx;
+ }
+  */
+.list-guide{
+  background-color: rgb(37, 56, 37);
+  width: 150rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 900rpx;
+  left: 0rpx;
+  border-radius: 60rpx;
+}
+.list-guide-text1{
+ 
+  font-size: 30rpx;
+  color: white;
+  position: absolute;
+  right: 30rpx;
+  top: 10rpx;
+ 
+
+}
+/*
+.list-guide-text2{
+font-size: 31rpx;
+color: white;
+ position: absolute;
+ left: 50rpx;
+ top: 60rpx;
+}
+*/
+/*
+.text6{
+background-color:rgb(37, 56, 37); 
+position: absolute;
+bottom: 30rpx;
+left: -100rpx;
+width: 300rpx;
+height: 300rpx;
+border-radius: 50%;
+
+}
+.text7{
+background-color:rgb(37, 56, 37); 
+position: absolute;
+bottom: 300rpx;
+right: 0rpx;
+width: 140rpx;
+height: 140rpx;
+border-radius: 50%;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text16{
+  position: absolute;
+  bottom: 80rpx;
+  left: 60rpx;
+  color: white;
+  font-size: 30rpx;
+}
+
+
+.page-bottom{
+  height: 100%;
+  width: 100%;
+  position: fixed; 
+  background-color: rgb(37, 56, 37);
+  z-index: 0;
+
+}
+.wc{
+color: white;
+display: flex;
+flex-direction: row; 
+font-size: 31rpx;
+font-weight: normal;
+font-family: "SimSun";
+height: 80rpx;
+margin-top: 20rpx;
+margin-left: 60rpx;
+
+}
+.text15{
+display: flex;
+flex-direction: row; 
+
+}
+.page-content{
+
+  margin-top: 10rpx;
+ 
+}
+.page-top{
+  height: 100%;
+  width:100%;
+  position: fixed;
+  z-index: 0;
+  transition: All 0.4s ease; 
+  -webkit-transition: All 0.4s ease;
+  background-color: rgb(245, 245, 245);
+}
+.page-top image{
+  position: absolute;
+  width: 28rpx;
+  height: 25rpx;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+}
+.c-state1{
+  transform: rotate(0deg) scale(1) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(1) translate(75%,0%); 
+}
+.c-state2{
+  transform: rotate(0deg) scale(.8) translate(75%,0%); 
+  -webkit-transform: rotate(0deg) scale(.8) translate(75%,0%); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logs-container .text8{
+background-color: rgb(37, 56, 37);
+height: 300rpx;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.logs-container .image7{
+width: 80rpx;
+height: 80rpx;
+border-radius: 50%;
+margin-left: 50rpx;
+border-style:solid;
+border-color:white;
+margin-top: 30rpx;
+}
+
+.logs-container .text10{
+ text-decoration: none;
+  font-size: 12px;
+  color: white;
+
+}
+.logs-container .btn6{
+  display: flex;
+flex-direction: column;
+margin-left: 20rpx;
+margin-top:40rpx;
+ 
+}
+
+.logs-container .text11{
+display: flex;
+flex-direction: row;
+margin-top: 20rpx;
+}
+
+
+
+.logs-container .text9{
+ text-decoration: none;
+  font-size: 15px;
+  color: white;
+ 
+}
+
+
+.logs-container .image10{
+width: 50rpx;
+height: 50rpx;
+margin-left: 280rpx;
+}
+.logs-container .image11{
+width: 50rpx;
+height: 50rpx;
+margin-left: 185rpx;
+}
+.logs-container .image12{
+width: 50rpx;
+height: 50rpx;
+margin-left: 245rpx;
+}
+.logs-container .image14{
+width: 40rpx;
+height: 40rpx;
+margin-left: 0rpx;
+margin-top: 0rpx;
+}
+
+
+
+
+
+.logs-container .text14{
+margin-left: 20rpx;
+
+
+}
+
+
+

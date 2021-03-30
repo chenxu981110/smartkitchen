@@ -1,0 +1,38 @@
+<view>
+
+
+<image class="image1"src="../images/beijing.jpeg"></image>
+
+
+<view class="text1">
+
+<view class="text2">
+<i-icon  class="text4"type="mine_fill" size="28" color="#80848f" />
+<textarea class="image2" placeholder="username" bindblur="getDataBindTap" auto-height />
+</view>
+
+<view class="text3">
+<i-icon class="text4" type="lock_fill" size="28" color="#80848f" />
+<textarea class="image2"  placeholder="password" bindblur="getDataBindTap" auto-height />
+</view>
+
+
+
+<view class="text5" bindtap="gologs">
+<image  class="image3"src="../images/6666.png"></image>
+</view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

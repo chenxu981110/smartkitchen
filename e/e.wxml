@@ -1,0 +1,38 @@
+<view>
+<image class="image1"src="../images/17.jpeg"></image>
+<text class="text3">陈旭</text>
+<view class="text4">
+<text class="text6">TIMES:</text>
+</view>
+<view class="text5">
+<text class="text7">3</text>
+</view>
+</view>
+
+<!--曲线图-->
+<view class="text1">
+<view class="qcontainer">
+  <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+</view>
+
+</view>
+<!---->
+<!--警报记录-->
+<view class="text2">
+<text class="text9">Alarm Record</text>
+<view class="text8" bindtap="goc">
+<text>See More</text>
+</view>
+
+
+<view class="text10">
+<image class="image2"src="../images/wd.png"></image>
+<view class="text11">
+<text class="text12">alarm reason</text>
+<text class="text13">温度异常</text>
+</view>
+<text class="text14">+35</text>
+</view>
+
+</view>
+<!---->

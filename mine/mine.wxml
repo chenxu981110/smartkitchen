@@ -1,0 +1,31 @@
+<view>
+
+<image class="image1"src="../images/dl.jpeg"></image>
+
+<view class="text3">
+<text class="text6">Wisdom</text>
+</view>
+
+
+
+<view class="text1">
+<text class="text7">kitchen</text>
+</view>
+
+
+<view class="text2">
+<textarea class="image3" placeholder="username" bindblur="getDataBindTap" auto-height />
+</view>
+
+<view class="text4">
+<textarea class="image3"  placeholder="password" bindblur="getDataBindTap" auto-height />
+</view>
+
+
+<view class="text5" bindtap="gologs">
+<image  class="image2"src="../images/6666.png"></image>
+</view>
+
+
+
+</view>
