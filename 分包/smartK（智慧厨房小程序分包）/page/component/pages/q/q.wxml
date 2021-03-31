@@ -1,0 +1,51 @@
+<view class="bj1">
+<view class="bj">
+<image class="tx"src="../../../../images/17.jpeg"></image>
+<text class="text0">陈旭</text>
+<text class="text1">Alarm Record</text>
+<view class="text12">
+<text>12.2</text>
+</view>
+<view class="qcontainer">
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+</view>
+</view>
+
+<!--警报记录1-->
+<view class="text2">
+<text class="text3">1</text>
+<view class="text4"> 
+<text class="text13">alarm reason</text>
+<text>Rent Surfing on Sydney's</text>
+<text class="text13">from $61.00</text>
+</view>
+<view class="text5"> 
+<image class="image1"src="../../../../images/fenxiangtianchong.png"></image>
+<text class="text6">more</text>
+</view>
+</view>
+<!--警报记录1-->
+
+
+<!--警报记录2-->
+<view class="text7">
+<text class="text10">2</text>
+<view class="text4"> 
+<text class="text13">alarm reason</text>
+<text>Rent Surfing on Sydney's</text>
+<text class="text13">from $61.00</text>
+</view>
+<view class="text5"> 
+<image class="image1"src="../../../../images/fenxiangtianchong.png"></image>
+<text class="text11">more</text>
+</view>
+</view>
+<!--警报记录2-->
+
+
+<view class="text8" bindtap="goa">
+<text class="text9">See more</text>
+<i-icon class="image2"type="enterinto_fill" size="42" color="white"/>  
+</view>
+
+</view>

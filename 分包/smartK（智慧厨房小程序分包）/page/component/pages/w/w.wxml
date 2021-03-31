@@ -1,0 +1,57 @@
+<view class="text0">
+<view class="text1">
+<image  class="image1" src="../../../../images/17.jpeg"></image>
+<view class="text2">
+<text class="text5">陈旭</text>
+</view>
+</view>
+
+<view class="text3">
+<view class="text6">
+<text class="text7">Alarm Record</text>
+<view class="text8">
+<text class="text16">times:</text>
+<text class="text15">12</text>
+</view>
+</view>
+<view class="image4"></view>
+<view class="image5" bindtap="gob">
+<image  class="image6"src="../../../../images/6666.png"></image>
+</view>
+</view>
+
+
+<!--曲线图-->
+<view class="qcontainer">
+  <ec-canvas id="mychart-dom-scatter" canvas-id="mychart-scatter" ec="{{ ec }}"></ec-canvas>
+</view>
+<!--曲线图-->
+
+
+
+
+
+
+<view class="text4">
+<view class="text9">
+<image class="image2"src="../../../../images/wd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">温度异常</text>
+</view>
+<text class="text11">+35</text>
+</view>
+<!--警报记录2-->
+<view class="text14">
+<image class="image3"src="../../../../images/sd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">湿度异常</text>
+</view>
+<text class="text18">-20</text>
+</view>
+
+
+
+</view>
+</view>

@@ -1,0 +1,14 @@
+<view class="problem1-container">
+<view class="text1">
+<text class="text2">如何成为慧厨俱乐部电子会员？</text>
+<text class="text3">通过以下三步轻松成为慧厨俱乐部电子会员</text>
+<text class="text3">1.微信扫描慧厨俱乐部服务号二维码</text>
+<text class="text3">2.关注慧厨俱乐部服务号</text>
+<text class="text3">3.点击左下角“会员中心”，根据提示注册/绑定成为电子会员</text>
+<text class="text3">注册/绑定成功后，即可随时使用电子会员卡在智慧厨房实体商城或者线上享受会员专享和活动</text>
+</view>
+<view class="text4">
+<view class="text5">问题仍未解决</view>
+<view class="text6">联系在线客服（09:00-21:00）</view>
+</view>
+</view>

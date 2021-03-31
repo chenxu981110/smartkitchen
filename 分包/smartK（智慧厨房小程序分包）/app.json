@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "page/tabBar/logs/logs",
+    "page/tabBar/about/about",
+    "page/tabBar/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#b3d4db",
+    "selectedColor": "#65777a",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/tabBar/about/about",
+        "iconPath": "images/bangzhu.png",
+        "selectedIconPath": "images/zaq.png",
+        "text": "联系我们"
+      },
+      {
+        "pagePath": "page/tabBar/logs/logs",
+        "iconPath": "images/shouye111.png",
+        "selectedIconPath": "images/cde.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "page/tabBar/index/index",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/ed.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "page/component/",
+      "pages": [
+        "pages/a/a",
+        "pages/b/b",
+        "pages/c/c",
+        "pages/q/q",
+        "pages/w/w",
+        "pages/e/e",
+        "pages/problem1/problem1",
+        "pages/problem2/problem2",
+        "pages/problem3/problem3",
+        "pages/problem4/problem4",
+        "pages/ec-canvas/ec-canvas"
+   
+      ]
+    }
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

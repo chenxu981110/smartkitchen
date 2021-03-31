@@ -1,0 +1,54 @@
+<view class="about-container">
+    <view class="title1">
+        <view class="btn3">
+            <view class="b">
+                <icon class="iconfont iconyonghu" style="color:#65777a;font-size:50rpx"></icon>
+                <text class="text1">在线客服</text>
+            </view>
+            <text class="text2">在线服务 09:00-21:00</text>
+        </view>
+        <!--动作面板-->
+        <view class="btn4" bindtap="powerDrawer" data-statu="open">
+            <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+            <view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+                <view class="drawer_content">
+                    <view class="drawer_title line">178-1560-2382</view>
+                    <view class="drawer_title line">呼叫</view>
+                    <view class="drawer_title line">取消</view>
+                </view>
+            </view>
+            <!--动作面板-->
+            <view class="c">
+               <icon class="iconfont icondianhua" style="color:#65777a;font-size:50rpx"></icon>
+                <view class="text3">电话客服</view>
+            </view>
+            <view class="text4">语音自助 7*24小时</view>
+            <view class="text4">人工服务 09:00-21:00</view>
+        </view>
+    </view>
+    <text class="text6">常见问题</text>
+
+    <view class="btn5" bindtap="goproblem1">
+        <text class="text0">如何成为智慧厨房电子会员？</text>
+        <image class="image1" src="../../../images/5555.png"></image>
+    </view>
+    <view class="btn6" bindtap="goproblem2">
+        <text class="text0">忘记智慧厨房卡号怎么办？</text>
+        <image class="image1" src="../../../images/5555.png"></image>
+    </view>
+    <view class="btn6" bindtap="goproblem3">
+        <text class="text0">收不到验证码怎么办？</text>
+        <image class="image1" src="../../../images/5555.png"></image>
+    </view>
+    <view class="btn6" bindtap="goproblem4">
+        <text class="text0">如何解绑智慧厨房电子会员？</text>
+        <image class="image1" src="../../../images/5555.png"></image>
+    </view>
+    <view class="btn9">
+        <text class="text11">隐私政策</text>
+    </view>
+
+
+
+
+</view>

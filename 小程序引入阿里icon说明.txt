@@ -1,0 +1,105 @@
+https://blog.csdn.net/qq_30449567/article/details/81382437
+https://transfonter.org/
+
+
+##############################
+1、将阿里图标加入购物车下载到本地，解压下载的文件，找到ttf后缀的文件。
+2、通过https://transfonter.org平台将ttf转换成base64格式
+3、把转换后的文件夹里的css后缀格式的文件后缀改成wxss。
+4、把第一步下载解压文件里的iconfont.css里内容复制到你需要引入的wxss里，具体复制内容如下图：
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconshidu:before {
+  content: "\e60b";
+}
+
+.iconjianzhuanquan:before {
+  content: "\e612";
+}
+
+.icontemperature:before {
+  content: "\e6f7";
+}
+
+.iconyanwubaojing:before {
+  content: "\e66f";
+}
+
+.iconyanwuganyingqi:before {
+  content: "\e60f";
+}
+
+.icongengduo:before {
+  content: "\e610";
+}
+
+.iconkeranqiti:before {
+  content: "\e604";
+}
+
+.iconfenxiang01:before {
+  content: "\e6d1";
+}
+
+.iconweixinzhifu:before {
+  content: "\e62a";
+}
+
+.iconsearch:before {
+  content: "\e60e";
+}
+
+.iconchoujiang:before {
+  content: "\e649";
+}
+
+.iconwenhao:before {
+  content: "\e71d";
+}
+
+.iconchoujiang1:before {
+  content: "\e654";
+}
+
+.iconyouhuiquan:before {
+  content: "\e60a";
+}
+
+.iconshezhi:before {
+  content: "\e611";
+}
+
+.iconshanchu:before {
+  content: "\e614";
+}
+
+.iconjurassic_home:before {
+  content: "\e69a";
+}
+
+.iconyonghu:before {
+  content: "\e607";
+}
+
+.icondianhua:before {
+  content: "\e61e";
+}
+
+.icontianjiazengjiajia:before {
+  content: "\e609";
+}
+
+.iconwode:before {
+  content: "\e602";
+}
+
+5、在需要引入图标的wxss里引入转换后的wxss
+@import "/stylesheet.wxss";
+6、wxml里使用格式
+<icon class="iconfont iconyonghu" style="color:#65777a;font-size:50rpx"></icon>

@@ -1,0 +1,191 @@
+.about-container{
+display: flex;
+flex-direction: column;
+
+}
+.about-container .title1{
+background-color:#b3d4db;
+padding: 50rpx 18rpx;
+display: flex;
+justify-content:space-between;
+margin-bottom: 40rpx;
+}
+
+.about-container .text1{
+text-decoration: none;
+font-size: 30rpx;
+color: #65777a;
+margin-left: 30rpx;
+margin-top: 10rpx;
+
+}
+.about-container .text2{
+  text-decoration: none;
+  font-size: 27rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  color: rgb(150, 150, 150);
+}
+.about-container .btn3{
+display: flex;
+flex-direction: column;
+border: 1px solid white;
+background-color:white;
+border-radius:10px;
+height: 190rpx;
+width: 325rpx;
+margin-left: 10rpx;
+
+}
+
+.about-container .btn4{
+display: flex;
+flex-direction: column;
+border: 1px solid white;
+background-color:white;
+border-radius:10px;
+height: 190rpx;
+width: 325rpx;
+margin-right: 10rpx;
+
+
+}
+.about-container .text3{
+text-decoration: none;
+font-size: 30rpx;
+color: #65777a;
+margin-left: 30rpx;
+margin-top: 10rpx;
+}
+.about-container .text4{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  margin-top: 5rpx;
+  color: rgb(150, 150, 150);
+}
+.about-container .text6{
+  text-decoration: none;
+  font-size: 32rpx;
+  color:black;
+  margin-left: 20rpx;
+  font-weight: bolder;
+}
+
+
+.about-container .btn5{
+display: flex;
+flex-direction: row;
+background-color:transparent;
+height: 80rpx;
+border-bottom-style: solid;
+border-bottom-color: gainsboro;
+border-bottom-width: 1rpx;
+margin-top: 80rpx;
+margin-left: 40rpx;
+margin-right: 40rpx;
+}
+.about-container .btn6{
+display: flex;
+flex-direction: row;
+background-color:transparent;
+margin-top: 40rpx;
+height: 80rpx;
+border-bottom-style: solid;
+border-bottom-color: gainsboro;
+border-bottom-width: 1rpx;
+margin-left: 40rpx;
+margin-right: 40rpx;
+}
+
+
+
+
+.about-container .text0{
+  text-decoration: none;
+  font-size: 30rpx;
+  color:black;
+  margin-left: 20rpx;
+  font-weight: 1rpx;
+  font-family: "SimSun";
+}
+
+.about-container .text11{
+  color: #65777a;
+  font-size: 26rpx;  
+}
+.about-container .btn9{
+text-align: center;
+margin-top: 200rpx;
+text-decoration-line: underline;
+text-decoration-color:#65777a;
+}
+.about-container .image1{
+width: 50rpx;
+height: 50rpx;
+position: absolute;
+right: 0;
+}
+
+.about-container .image4{
+width: 60rpx;
+height: 60rpx;
+margin-left: 10rpx;
+
+}
+.about-container .image5{
+width: 35rpx;
+height: 35rpx;
+margin-left: 0;
+
+}
+.about-container .c{
+display: flex;
+flex-direction: row;
+margin-top: 20rpx;
+margin-left: 20rpx;
+}
+.about-container .b{
+margin-top: 20rpx;
+margin-left: 20rpx;
+display: flex;
+flex-direction: row;
+}
+
+
+/*动作面板*/
+.about-container .drawer_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background:  rgb(150, 150, 150);
+  opacity: 0.2;
+  overflow: hidden;
+}
+/*content*/
+.about-container .drawer_attr_box {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1001;
+  background: #fff;
+}
+.about-container .drawer_content {
+  padding: 10rpx 10rpx;
+  height: 280rpx;
+  overflow-y: scroll;
+}
+.about-container .drawer_title{
+  padding:20rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+.about-container .line{
+  border-bottom: 1px solid #f8f8f8;
+}
+
+

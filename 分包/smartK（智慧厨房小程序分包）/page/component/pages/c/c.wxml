@@ -1,0 +1,62 @@
+<view class="text1"> 
+    <view class="text2">
+        <text class="text8">MONDAY</text>
+         <view class="text3">
+               <text>17</text>
+               <text class="text7">NOV</text>
+          </view>
+      </view>
+      <view class="text6">
+    <text>12</text>
+    </view>
+</view>
+
+<view class="text4">
+<text class="text5">Alarm Record</text>
+<!--警报记录1-->
+<view class="text9">
+<image class="image1"src="../../../../images/wd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">温度异常</text>
+</view>
+<text class="text11">+35</text>
+</view>
+<!--警报记录2-->
+<view class="text14">
+<image class="image2"src="../../../../images/sd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">湿度异常</text>
+</view>
+<text class="text18">-20</text>
+</view>
+<!--警报记录3-->
+<view class="text19">
+<image class="image1"src="../../../../images/wd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">温度异常</text>
+</view>
+<text class="text11">+65</text>
+</view>
+<!--警报记录4-->
+<view class="text20">
+<image class="image2"src="../../../../images/sd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">湿度异常</text>
+</view>
+<text class="text18">-14</text>
+</view>
+<!--警报记录5-->
+<view class="text21">
+<image class="image1"src="../../../../images/wd.png"></image>
+<view class="text10">
+<text class="text12">alarm reason</text>
+<text class="text13">温度异常</text>
+</view>
+<text class="text11">-5</text>
+</view>
+<!---->
+</view>

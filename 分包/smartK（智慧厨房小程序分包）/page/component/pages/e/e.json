@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "慧厨会员中心",
+  "navigationBarTextStyle": "black",
+  "component": true,
+  "usingComponents": {
+    "ec-canvas": "../ec-canvas/ec-canvas"
+  }
+}
